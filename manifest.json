@@ -1,0 +1,15 @@
+{
+  "domain": "nexia_ux360",
+  "name": "Nexia/American Standard/Trane UX360",
+  "codeowners": ["@davidhewing"],
+  "config_flow": true,
+  "dhcp": [
+    {
+      "hostname": "xl857-*",
+      "macaddress": "000231*"
+    }
+  ],
+  "documentation": "https://www.home-assistant.io/integrations/nexia",
+  "iot_class": "cloud_polling",
+  "loggers": ["nexia_ux360"]
+}
